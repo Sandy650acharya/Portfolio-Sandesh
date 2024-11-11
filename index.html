@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Sandesh's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section id="banner">
+        <div class="banner-content">
+            <img src="Pic.jpg" alt="Photo" class="profile-photo">
+            <h1>Hello, I'm Sandesh</h1>
+            <p class="tagline">Aspiring Engineer | Problem Solver | Tech Enthusiast</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am currently pursuing a Bachelor of Engineering (BE) in Computer Science with a strong passion for technology and innovation. I’m excited to solve real-world challenges and create impactful projects. Welcome to my portfolio where you can explore my journey, projects, and technical skills!</p>
+    </section>
+
+    <section id="features">
+        <div class="card" onclick="navigateTo('resume.html')">
+            <i class="fas fa-file-alt"></i>
+            <h3>Resume</h3>
+            <p>Check out my professional experience, skills, and academic background.</p>
+        </div>
+        <div class="card" onclick="navigateTo('biodata.html')">
+            <i class="fas fa-user"></i>
+            <h3>Bio-data</h3>
+            <p>Learn more about my personal background and language proficiencies.</p>
+        </div>
+        <div class="card" onclick="navigateTo('contact.html')">
+            <i class="fas fa-envelope"></i>
+            <h3>Contact</h3>
+            <p>Get in touch with me via email, LinkedIn, or GitHub.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sandesh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
